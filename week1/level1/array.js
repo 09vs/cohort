@@ -23,7 +23,7 @@ function pushExample(arr, element) {
   }
   popExample([1, 2, 3]);
   
-  // shift()
+  // shift() it provides the number in front of the array
   function shiftExample(arr) {
     console.log("Original Array:", arr);
   
@@ -32,7 +32,7 @@ function pushExample(arr, element) {
   }
   shiftExample([1, 2, 3]);
   
-  // unshift()
+  // unshift() it adds the number in back
   function unshiftExample(arr, element) {
     console.log("Original Array:", arr);
   
